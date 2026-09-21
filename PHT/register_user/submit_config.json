@@ -1,0 +1,47 @@
+{
+  "create_count": 3000,
+  "batch": {
+    "start_number": 100,
+    "name_template": "用户{number}",
+    "emergency_contact_template": "紧急用户{number}",
+    "phone_start": 15198100000,
+    "email_template": "zm940848554+{number}@gmail.com",
+    "id_card_prefix": "51012119940203",
+    "id_card_suffix_start": 0,
+    "id_card_suffix_width": 4
+  },
+  "fixed_fields": {
+    "avatar_image": null,
+    "birthday": 1599408000000,
+    "id_card_type": 1,
+    "nationality": "CN",
+    "itra_id": "FFF",
+    "pinyin_first_name_upper": "BB",
+    "pinyin_last_name_upper": "WW",
+    "detail_address": {
+      "country_code": "CN",
+      "province_code": "510000",
+      "city_code": "510100",
+      "district_code": "510107",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "武侯区",
+      "address": "天府三街"
+    }
+  },
+  "random_enum_fields": {
+    "gender": [1, 2, 3],
+    "blood_type": [1, 2, 3, 4],
+    "clothing_size": [1, 2, 3, 4, 5]
+  },
+  "runtime": {
+    "workers": 8,
+    "timeout": 30.0,
+    "retries": 2,
+    "retry_delay": 1.0
+  },
+  "output": {
+    "success_file": "pht_register_users_success.json",
+    "failure_file": "pht_register_users_failed.json"
+  }
+}

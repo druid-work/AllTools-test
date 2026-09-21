@@ -1,0 +1,16 @@
+{
+  "curl": "",
+  "url": "https://pht.test.druidtech.net/api/public/trail/organizer/signupUser",
+  "token": "6cd58af17797437067b077ac66ec819ec6eae214",
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "origin": "https://pht.test.druidtech.net",
+    "pragma": "no-cache",
+    "referer": "https://pht.test.druidtech.net/",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "Cookie": "pht.test.druidtech.net-xcode-web-user-language=cookie_zh_CN"
+  }
+}
